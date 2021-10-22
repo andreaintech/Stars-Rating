@@ -12,7 +12,6 @@ const NUM_STARS = 5;
 
 const App = () => {
   const [rating, setRating] = useState(1);
-  // const [animation, setAnimation] = useState(new Animated.Value(1));
   const animatedd = new Animated.Value(1);
   const [animation, setAnimation] = useState(animatedd);
   let stars = [];
